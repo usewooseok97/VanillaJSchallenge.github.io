@@ -1,0 +1,57 @@
+.hidden{
+    display: none;
+}
+img{
+    width:100%;
+    height:100%;
+    bottom: 0;
+    left: 0;
+    margin: auto;  /*여백 정도*/
+    overflow: auto;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: -1;  /*위치지정
+    opacity:80%; 해상도 정도 뿌연정도*/
+}
+#Login-form,#Login-name{
+    text-align:center;
+   margin-top: 300px;
+   font-weight: bolder;
+   font-size:70px;
+
+}
+#clock{
+    text-align:center;
+}
+#del-btn{
+    position: absolute;
+    top: 30px;
+    left: 30px;  }
+#weather{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size:20px;
+    text-align: center;
+    margin: 0;
+}
+#quoto{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size:18px;
+    opacity:80%;
+}
+#todo-list,li{
+    background-color: #d4edda;
+    z-index: 1;
+    max-inline-size: 200px;
+    font-family: "SF Pro KR", "MalgunGothic", "Verdana"; /* 글꼴 */
+    font-size: 14px; /* 글자크기 */
+    font-weight: normal; /* 굵기 */
+    right: 500px;
+}
+#todo-input{
+    right: 500px;
+}
